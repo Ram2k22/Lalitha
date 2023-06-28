@@ -1,0 +1,76 @@
+/* Marquee-Navigation-Bar */
+
+.header-body{width:90%;
+	margin:auto;}
+
+.header{height:30%;
+	background-color:gray;
+	position:relative;}
+.header .marquee-navbar ul{
+	overflow:hidden;
+	list-style-type:none;
+	background-color:brown;
+	width:100%;
+	margin:0;
+	padding:0;
+	height:25px;}
+
+.header .marquee-navbar ul li{color:white;
+	text-decoration:none;
+	float:left;
+	line-height:25px;
+	font-size:15px;
+	width:33.333%;
+	text-align:center;}
+.header .marquee-navbar ul li:hover{background-color:#027592;}
+
+/* Customer Service Navigation bar */
+
+.header .customer-service ul{overflow:hidden;
+	width:100%;
+	background-color:#aaa;
+	margin:0px;
+	list-style-type:none;
+	padding:0;}
+.header .customer-service ul li{float:left;
+	line-height:30px;
+	margin-left:30px;
+	font-weight:bold;}
+.header .customer-service .right-side{float:right;
+	margin-right:10%;}
+.header .customer-service ul a{color:black;
+	text-decoration:none;}
+.header .customer-service ul a:hover{cursor:pointer;}
+.header .customer-service ul a:active{text-decoration:underline;}
+
+.body-content{position:relative;
+	width:99%;
+	margin:auto;}
+	
+/* Navigation-Bar */
+
+.body-content .nav-bar ul{overflow:hidden;
+	width:100%;
+	list-style-type:none;
+	margin-top:8px;
+	height:65px;
+	}
+
+.body-content .nav-bar ul li{float:left;
+	}
+.body-content .nav-bar ul li a{color:black;
+	text-decoration:none;
+	line-height:65px;
+	margin-right:35px;
+	display:block;
+	transition:0.3s;}
+.body-content .nav-bar ul .search{float:right;
+	}
+.body-content .nav-bar ul li a:hover{color:gold;
+	border-top:3px solid gold;
+	background-color:#eee;
+	}
+
+
+
+

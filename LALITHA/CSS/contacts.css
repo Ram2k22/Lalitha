@@ -1,0 +1,6 @@
+.contacts .phone{position:fixed;
+	background-color:green;
+	padding:5px;
+	top:70%;
+	border-radius:0px 5px 5px 0px;
+	cursor:pointer;}
